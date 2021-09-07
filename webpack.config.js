@@ -6,11 +6,11 @@ module.exports = {
         filename: 'main.js',
         path: `${__dirname}/dist`,
     },
+    devtool: 'inline-source-map',
     module: {
         rules: [
             {
                 test: /\.css$/i,
-                // module loader chains are executed from right to left
                 use: ['style-loader', 'css-loader'],
             },
             {

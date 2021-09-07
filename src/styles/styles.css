@@ -50,6 +50,7 @@ html {
 }
 
 a {
+    --position: translateX(-100%);
     cursor: pointer;
     overflow: hidden;
     padding: 5px 0px;
@@ -63,7 +64,7 @@ a::after {
     height: 2px;
     left: 0px;
     position: absolute;
-    transform: translateX(-100%);
+    transform: var(--position);
     transition: transform 0.3s;
     width: 100%;
 }
