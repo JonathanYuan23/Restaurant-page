@@ -23,7 +23,7 @@ const nav = (function() {
 
         const logo = new Image();
         logo.src = ramenIcon;
-        logo.setAttribute('width', '35px');
+        logo.setAttribute('width', '28px');
 
         const siteName = document.createElement('h1');
         siteName.textContent = 'Ramen Bros';
