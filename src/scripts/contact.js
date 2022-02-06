@@ -2,6 +2,7 @@ const contact = (function () {
     function init() {
         const content = document.createElement('section');
         content.id = 'contact-form';
+        content.classList.add('rounded-container-3');
         content.appendChild(loadForm());
         return content;
     }

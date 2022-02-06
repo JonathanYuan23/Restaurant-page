@@ -42,6 +42,7 @@ const menu = (function () {
     function init() {
         const content = document.createElement('section');
         content.id = 'menu-items';
+        content.classList.add('rounded-container-5');
 
         content.appendChild(loadMenuHeader());
         content.appendChild(loadHorizontalRule(0));
