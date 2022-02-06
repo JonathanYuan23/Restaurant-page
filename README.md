@@ -1,2 +1,2 @@
 # Restaurant-page
-Practice using webpack and es6 modules
+First webpack project. Menu listing ui inspired by [Airbnb](https://www.airbnb.ca/)
